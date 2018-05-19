@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="CustomActionControl" Logo="ExpressAppLogo">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.2.15.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Order_ListView">
+      <Columns>
+        <ColumnInfo Id="OrderNo" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

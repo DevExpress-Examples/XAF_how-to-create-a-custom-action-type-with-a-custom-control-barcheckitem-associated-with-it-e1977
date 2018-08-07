@@ -10,7 +10,7 @@ Imports DevExpress.XtraBars
 
 Namespace CustomActionControl.Module.Win.Controllers
     Public Class CustomActionControlController
-        Inherits WindowController
+        Inherits Controller
 
         Private Sub actionControlsSiteController_CustomAddActionControlToContainer(ByVal sender As Object, ByVal e As CustomAddActionControlEventArgs)
             If TypeOf e.Action Is CheckableSimpleAction Then

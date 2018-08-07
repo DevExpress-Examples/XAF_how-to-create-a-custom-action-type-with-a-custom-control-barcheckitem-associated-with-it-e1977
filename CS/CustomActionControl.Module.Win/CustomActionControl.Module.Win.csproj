@@ -11,8 +11,10 @@
     <RootNamespace>CustomActionControl.Module.Win</RootNamespace>
     <AssemblyName>CustomActionControl.Module.Win</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileUpgradeFlags></FileUpgradeFlags>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
@@ -143,15 +145,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ActionControls\CheckableSimpleActionBinding.cs" />
-    <Compile Include="ActionItems\CheckableSimpleActionItem.cs" />
-    <Compile Include="ActionItems\CustomBarActionItemsFactory.cs" />
-    <Compile Include="ActionItems\CustomBarActionItemsFactoryProvider.cs" />
     <Compile Include="Controllers\CustomActionControlController.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controllers\SampleController.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Controllers\SampleController.cs" />
     <Compile Include="WinModule.cs">
       <SubType>Component</SubType>
     </Compile>

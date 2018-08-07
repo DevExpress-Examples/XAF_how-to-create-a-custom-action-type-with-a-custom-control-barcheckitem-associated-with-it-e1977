@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,11 +7,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E2125EB8-339E-49DD-A87B-A093E2256F53}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>CustomActionControl.Module.Win</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileUpgradeFlags></FileUpgradeFlags>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
@@ -159,15 +162,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ActionControls\CheckableSimpleActionBinding.vb" />
-    <Compile Include="ActionItems\CheckableSimpleActionItem.vb" />
-    <Compile Include="ActionItems\CustomBarActionItemsFactory.vb" />
-    <Compile Include="ActionItems\CustomBarActionItemsFactoryProvider.vb" />
     <Compile Include="Controllers\CustomActionControlController.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controllers\SampleController.vb">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Controllers\SampleController.vb" />
     <Compile Include="WinModule.vb">
       <SubType>Component</SubType>
     </Compile>
@@ -178,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="WinModule.resx">
       <DependentUpon>WinModule.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -206,7 +205,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ActionItems\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

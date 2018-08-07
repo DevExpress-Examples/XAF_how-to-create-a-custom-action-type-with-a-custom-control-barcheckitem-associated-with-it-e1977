@@ -9,7 +9,7 @@ using DevExpress.ExpressApp.Win.Templates.Ribbon.ActionControls;
 using DevExpress.XtraBars;
 
 namespace CustomActionControl.Module.Win.Controllers {
-    public class CustomActionControlController : WindowController {
+    public class CustomActionControlController : Controller {
         private void actionControlsSiteController_CustomAddActionControlToContainer(object sender, CustomAddActionControlEventArgs e) {
             if(e.Action is CheckableSimpleAction) {
                 if(e.Container is BarLinkActionControlContainer) {

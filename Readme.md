@@ -1,3 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [BarCheckItemCheckableSimpleActionControl.cs](./CS/CustomActionControl.Module.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.cs) (VB: [BarCheckItemCheckableSimpleActionControl.vb](./VB/CustomActionControl.Module.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.vb))
+* [CheckableSimpleActionBinding.cs](./CS/CustomActionControl.Module.Win/ActionControls/CheckableSimpleActionBinding.cs) (VB: [CheckableSimpleActionBinding.vb](./VB/CustomActionControl.Module.Win/ActionControls/CheckableSimpleActionBinding.vb))
+* [CheckableSimpleActionItem.cs](./CS/CustomActionControl.Module.Win/ActionItems/CheckableSimpleActionItem.cs) (VB: [CheckableSimpleActionItem.vb](./VB/CustomActionControl.Module.Win/ActionItems/CheckableSimpleActionItem.vb))
+* [CustomBarActionItemsFactory.cs](./CS/CustomActionControl.Module.Win/ActionItems/CustomBarActionItemsFactory.cs) (VB: [CustomBarActionItemsFactoryProvider.vb](./VB/CustomActionControl.Module.Win/ActionItems/CustomBarActionItemsFactoryProvider.vb))
+* [CustomBarActionItemsFactoryProvider.cs](./CS/CustomActionControl.Module.Win/ActionItems/CustomBarActionItemsFactoryProvider.cs) (VB: [CustomBarActionItemsFactoryProvider.vb](./VB/CustomActionControl.Module.Win/ActionItems/CustomBarActionItemsFactoryProvider.vb))
+* [CustomActionControlController.cs](./CS/CustomActionControl.Module.Win/Controllers/CustomActionControlController.cs) (VB: [CustomActionControlController.vb](./VB/CustomActionControl.Module.Win/Controllers/CustomActionControlController.vb))
+* [SampleController.cs](./CS/CustomActionControl.Module.Win/Controllers/SampleController.cs) (VB: [SampleController.vb](./VB/CustomActionControl.Module.Win/Controllers/SampleController.vb))
+* **[CheckableSimpleAction.cs](./CS/CustomActionControl.Module/CheckableSimpleAction.cs) (VB: [CheckableSimpleAction.vb](./VB/CustomActionControl.Module/CheckableSimpleAction.vb))**
+* [Order.cs](./CS/CustomActionControl.Module/Order.cs) (VB: [Order.vb](./VB/CustomActionControl.Module/Order.vb))
+<!-- default file list end -->
 # How to create a custom action type with a custom control (BarCheckItem), associated with it
 
 

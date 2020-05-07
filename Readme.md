@@ -9,8 +9,7 @@ An example for ASP.NET is available here: <a href="https://www.devexpress.com/S
 
 <br/>
 
-*Files to look at:*
-
+*Files to look at:*  
 [CheckableSimpleAction.cs](./CS/CustomActionControl.Module/CheckableSimpleAction.cs)  
 [CustomActionControlController.cs](./CS/CustomActionControl.Module.Win/Controllers/CustomActionControlController.cs)  
 [CheckableSimpleActionBinding.cs](./CS/CustomActionControl.Module.Win/ActionControls/CheckableSimpleActionBinding.cs)  

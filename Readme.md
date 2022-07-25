@@ -10,7 +10,10 @@ This example demonstrates how to represent an action via BarCheckItem. For this 
 
 Note that in most cases, it is not required to implement a custom action and action item. It is sufficient to customize the existing action control as described in the <a href="http://documentation.devexpress.com/#Xaf/CustomDocument3183"><u>How to: Customize Controls Associated with an Action</u></a> topic.
 
-An example for ASP.NET is available here: <a href="https://www.devexpress.com/Support/Center/p/E4357">How to create a custom action type with a custom control in Web</a>.</p>
+## See Also
+
+ - <a href="https://www.devexpress.com/Support/Center/p/E4357">How to create a custom action type with a custom control in Web</a> (ASP.NET webForms)
+ - [XAF Blazor - Implement a custom Action type](https://github.com/DevExpress-Examples/xaf-custom-action-type-blazor) (ASP.NET Core Blazor Server)
 
 <br/>
 

@@ -18,7 +18,7 @@ Note that in most cases, it is not required to implement a custom action and act
 <br/>
 
 *Files to look at:*  
-[CheckableSimpleAction.cs](./CS/CustomActionControl.Module/CheckableSimpleAction.cs)  
-[CustomActionControlController.cs](./CS/CustomActionControl.Module.Win/Controllers/CustomActionControlController.cs)  
-[CheckableSimpleActionBinding.cs](./CS/CustomActionControl.Module.Win/ActionControls/CheckableSimpleActionBinding.cs)  
-[BarCheckItemCheckableSimpleActionControl.cs](./CS/CustomActionControl.Module.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.cs)  
+[CheckableSimpleAction.cs](CS/EFCore/CustomActionEF/CustomActionEF.Module/CheckableSimpleAction.cs)  
+[CustomActionControlController.cs](CS/EFCore/CustomActionEF/CustomActionEF.Win/Controllers/CustomActionControlController.cs)  
+[CheckableSimpleActionBinding.cs](CS/EFCore/CustomActionEF/CustomActionEF.Win/ActionControls/CheckableSimpleActionBinding.cs)  
+[BarCheckItemCheckableSimpleActionControl.cs](CS/EFCore/CustomActionEF/CustomActionEF.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.cs)  

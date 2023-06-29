@@ -3,10 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomAction.Module", "CustomAction.Module\CustomAction.Module.csproj", "{6DF17D2C-332A-46F2-A9F9-E16E52185D0D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomAction.Win", "CustomAction.Win\CustomAction.Win.csproj", "{10FF8224-5CC2-49A3-8CA1-D1B095DB9747}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomAction.Module", "CustomAction.Module\CustomAction.Module.csproj", "{6DF17D2C-332A-46F2-A9F9-E16E52185D0D}"
+EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

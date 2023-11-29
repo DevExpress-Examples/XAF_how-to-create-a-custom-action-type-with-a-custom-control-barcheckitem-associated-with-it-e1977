@@ -7,6 +7,7 @@
 
 
 This example demonstrates how to represent an action via BarCheckItem.
+![CustomActionEF Win_FWqpdDPuHf](https://github.com/DevExpress-Examples/XAF_how-to-create-a-custom-action-type-with-a-custom-control-barcheckitem-associated-with-it-e1977/assets/14300209/3658a524-a118-486a-898c-a83131b57485)
 
 
 ## Implementation Details

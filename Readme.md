@@ -14,7 +14,7 @@ This example implements a custom action and uses the WinForms [BarCheckItem](htt
 ## Implementation Details
 
 1. The [CheckableSimpleAction](CS/EFCore/CustomActionEF/CustomActionEF.Module/CheckableSimpleAction.cs) in a SimpleAction descendant that saves the checked state of the action. 
-2. The [BarCheckItemCheckableSimpleActionControl](CS/EFCore/CustomActionEF/CustomActionEF.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.cs) adds a custom action control in the UI. 
+2. The [BarCheckItemCheckableSimpleActionControl](CS/EFCore/CustomActionEF/CustomActionEF.Win/ActionControls/BarCheckItemCheckableSimpleActionControl.cs) uses the WinForms [BarCheckItem](https://docs.devexpress.com/WindowsForms/DevExpress.XtraBars.BarCheckItem) control to implement the custom action in the UI. 
 3. The [CheckableSimpleActionBinding](CS/EFCore/CustomActionEF/CustomActionEF.Win/ActionControls/CheckableSimpleActionBinding.cs) links the custom action (`CheckableSimpleAction`) to its UI representation (`BarCheckItemCheckableSimpleActionControl`).
 
 > **Note**:
